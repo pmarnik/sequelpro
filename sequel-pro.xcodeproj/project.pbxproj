@@ -125,7 +125,7 @@
 		17DD52C6115074CB007D8950 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DD52C4115074CB007D8950 /* Localizable.strings */; };
 		17E090E811498FC9007FC1B4 /* SPPrintController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E090E711498FC9007FC1B4 /* SPPrintController.m */; };
 		17E0937E114AE154007FC1B4 /* SPTableInfoPrintTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 17E0937D114AE154007FC1B4 /* SPTableInfoPrintTemplate.html */; };
-		17E20E0012D660C3007F75A6 /* OCMock.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 11D44DEF118F5887002AA43C /* OCMock.framework */; };
+		17E20E0012D660C3007F75A6 /* OCMock.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 11D44DEF118F5887002AA43C /* OCMock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		17E641460EF01EB5001BC333 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641440EF01EB5001BC333 /* main.m */; };
 		17E641560EF01EF6001BC333 /* SPCustomQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641490EF01EF6001BC333 /* SPCustomQuery.m */; };
 		17E641570EF01EF6001BC333 /* SPAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E6414B0EF01EF6001BC333 /* SPAppController.m */; };
@@ -176,8 +176,8 @@
 		4D90B7A2101E0D1500D116A1 /* UserManagerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D90B7A0101E0D1500D116A1 /* UserManagerView.xib */; };
 		4DECC3350EC2A170008D359E /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECC3320EC2A170008D359E /* Sparkle.framework */; };
 		4DECC3370EC2A170008D359E /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECC3340EC2A170008D359E /* Growl.framework */; };
-		4DECC48F0EC2B436008D359E /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECC3320EC2A170008D359E /* Sparkle.framework */; };
-		4DECC4910EC2B436008D359E /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECC3340EC2A170008D359E /* Growl.framework */; };
+		4DECC48F0EC2B436008D359E /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECC3320EC2A170008D359E /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4DECC4910EC2B436008D359E /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECC3340EC2A170008D359E /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		501B1D181728A3DA0017C92E /* SPCharsetCollationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 501B1D171728A3DA0017C92E /* SPCharsetCollationHelper.m */; };
 		503B02CA1AE82C5E0060CAB1 /* SPTableFilterParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 503B02C91AE82C5E0060CAB1 /* SPTableFilterParser.m */; };
 		503B02CF1AE95C2C0060CAB1 /* SPTableFilterParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 503B02CE1AE95C2C0060CAB1 /* SPTableFilterParserTest.m */; };
@@ -273,8 +273,8 @@
 		58475703120A1B290057631F /* SPQLPluginContentFiltersTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 584756FC120A1B290057631F /* SPQLPluginContentFiltersTemplate.html */; };
 		58475704120A1B290057631F /* SPQLPluginQueryFavoritesTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 584756FE120A1B290057631F /* SPQLPluginQueryFavoritesTemplate.html */; };
 		58475705120A1B290057631F /* SPQLPluginSQLTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 58475700120A1B290057631F /* SPQLPluginSQLTemplate.html */; };
-		5847577D120A1E8A0057631F /* Sequel Pro.qlgenerator in Copy QuickLook Plugins */ = {isa = PBXBuildFile; fileRef = 584754C2120A04560057631F /* Sequel Pro.qlgenerator */; };
-		584D876B15140D7700F24774 /* SPMySQL.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 584D876815140D3500F24774 /* SPMySQL.framework */; };
+		5847577D120A1E8A0057631F /* Sequel Pro.qlgenerator in Copy QuickLook Plugins */ = {isa = PBXBuildFile; fileRef = 584754C2120A04560057631F /* Sequel Pro.qlgenerator */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		584D876B15140D7700F24774 /* SPMySQL.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 584D876815140D3500F24774 /* SPMySQL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		584D877815140F7B00F24774 /* SPMySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584D876815140D3500F24774 /* SPMySQL.framework */; };
 		584D878B15140FEB00F24774 /* SPObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D878A15140FEB00F24774 /* SPObjectAdditions.m */; };
 		584D87921514101E00F24774 /* SPDatabaseStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D87911514101E00F24774 /* SPDatabaseStructure.m */; };
@@ -285,9 +285,9 @@
 		584D88AC1515034200F24774 /* NSNotificationCenterThreadingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D88A81515034200F24774 /* NSNotificationCenterThreadingAdditions.m */; };
 		584D899D15162CBE00F24774 /* SPDataBase64EncodingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D899C15162CBE00F24774 /* SPDataBase64EncodingAdditions.m */; };
 		586AAB1514FAD3AF007F82BF /* QueryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5955314F304000054EE08 /* QueryKit.framework */; };
-		586AAB9314FAD40D007F82BF /* QueryKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5955314F304000054EE08 /* QueryKit.framework */; };
+		586AAB9314FAD40D007F82BF /* QueryKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5955314F304000054EE08 /* QueryKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		586EBD2411418D7C00B3DE45 /* FeedbackReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586EBD2311418D7C00B3DE45 /* FeedbackReporter.framework */; };
-		586EBD5D11418D9400B3DE45 /* FeedbackReporter.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 586EBD2311418D7C00B3DE45 /* FeedbackReporter.framework */; };
+		586EBD5D11418D9400B3DE45 /* FeedbackReporter.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 586EBD2311418D7C00B3DE45 /* FeedbackReporter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		586F457B0FDB269E00B428D7 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 296DC8AB0F909194002A3258 /* RegexKitLite.m */; };
 		586F457E0FDB280100B428D7 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 296DC8BE0F9091DF002A3258 /* libicucore.dylib */; };
 		5870868410FA3E9C00D58E1C /* SPDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5870868310FA3E9C00D58E1C /* SPDataStorage.m */; };
@@ -334,7 +334,7 @@
 		58B9076E11BD9B34000826E5 /* PSMTabStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B9072E11BD9B34000826E5 /* PSMTabStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58B9077E11BD9B64000826E5 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B9077D11BD9B64000826E5 /* Carbon.framework */; };
 		58B907CA11BDA541000826E5 /* PSMTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B906E611BD989A000826E5 /* PSMTabBar.framework */; };
-		58B907FB11BDA5A9000826E5 /* PSMTabBar.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 58B906E611BD989A000826E5 /* PSMTabBar.framework */; };
+		58B907FB11BDA5A9000826E5 /* PSMTabBar.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 58B906E611BD989A000826E5 /* PSMTabBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		58B9097B11C3A4A2000826E5 /* xibLocalizationPostprocessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9095B11C3A3EC000826E5 /* xibLocalizationPostprocessor.m */; };
 		58C3506510B9A56C00D37E14 /* button_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C3506410B9A56C00D37E14 /* button_left.png */; };
 		58C3506710B9A57300D37E14 /* button_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C3506610B9A57300D37E14 /* button_right.png */; };
@@ -349,7 +349,7 @@
 		58C56EF50F438E120035701E /* SPDataCellFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C56EF40F438E120035701E /* SPDataCellFormatter.m */; };
 		58C61CFA11960312003BAA5D /* SPAlertSheets.m in Sources */ = {isa = PBXBuildFile; fileRef = 584095181107CB6600260CFD /* SPAlertSheets.m */; };
 		58C6C71611FBB17200A3F5E9 /* UniversalDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C6C71511FBB17200A3F5E9 /* UniversalDetector.framework */; };
-		58C6C71F11FBB18000A3F5E9 /* UniversalDetector.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 58C6C71511FBB17200A3F5E9 /* UniversalDetector.framework */; };
+		58C6C71F11FBB18000A3F5E9 /* UniversalDetector.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 58C6C71511FBB17200A3F5E9 /* UniversalDetector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		58CDB3300FCE138D00F8ACA3 /* SPSSHTunnel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CDB32F0FCE138D00F8ACA3 /* SPSSHTunnel.m */; };
 		58CDB3400FCE13EF00F8ACA3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EAC0FC0EC87FF900CC579C /* Security.framework */; };
 		58CDB3410FCE141900F8ACA3 /* SequelProTunnelAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CDB3310FCE139C00F8ACA3 /* SequelProTunnelAssistant.m */; };
@@ -362,7 +362,7 @@
 		58D2E230101222870063EF1D /* link-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D2E22D101222870063EF1D /* link-arrow.png */; };
 		58DA8863103E15B5000B98DF /* SPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DA8862103E15B5000B98DF /* SPLogger.m */; };
 		58DC0D5F1293293400B76DA5 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC0D5E1293293400B76DA5 /* ShortcutRecorder.framework */; };
-		58DC0D7C12932AB200B76DA5 /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC0D5E1293293400B76DA5 /* ShortcutRecorder.framework */; };
+		58DC0D7C12932AB200B76DA5 /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC0D5E1293293400B76DA5 /* ShortcutRecorder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		58DC10D312A1B8DF00B76DA5 /* SPMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DC10D212A1B8DF00B76DA5 /* SPMenuAdditions.m */; };
 		58DF9F3315AB26C2003B4330 /* SPDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DF9F3215AB26C2003B4330 /* SPDateAdditions.m */; };
 		58DF9F7315AB8509003B4330 /* SPSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DF9F7215AB8509003B4330 /* SPSplitView.m */; };
@@ -2762,7 +2762,7 @@
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "sequel-pro" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -3747,8 +3747,9 @@
 					"-framework",
 					OCMock,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sequelpro.SequelPro.tests;
 				PRODUCT_NAME = "Unit Tests";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -3779,8 +3780,9 @@
 					"-framework",
 					OCMock,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sequelpro.SequelPro.tests;
 				PRODUCT_NAME = "Unit Tests";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -3810,8 +3812,9 @@
 					"-framework",
 					OCMock,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sequelpro.SequelPro.tests;
 				PRODUCT_NAME = "Unit Tests";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -3826,10 +3829,13 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/Sequel-Pro.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "Resources/Plists/Sequel Pro QLGenerator-Info.plist";
 				INSTALL_PATH = /Library/QuickLook;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/openssl/lib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sequelpro.SequelPro.qlgenerator;
 				PRODUCT_NAME = "Sequel Pro";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = qlgenerator;
 			};
 			name = Debug;
@@ -3843,10 +3849,13 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/Sequel-Pro.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "Resources/Plists/Sequel Pro QLGenerator-Info.plist";
 				INSTALL_PATH = /Library/QuickLook;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/openssl/lib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sequelpro.SequelPro.qlgenerator;
 				PRODUCT_NAME = "Sequel Pro";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = qlgenerator;
 				ZERO_LINK = NO;
 			};
@@ -3859,10 +3868,13 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/Sequel-Pro.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "Resources/Plists/Sequel Pro QLGenerator-Info.plist";
 				INSTALL_PATH = /Library/QuickLook;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/openssl/lib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sequelpro.SequelPro.qlgenerator;
 				PRODUCT_NAME = "Sequel Pro";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = qlgenerator;
 			};
 			name = Distribution;
@@ -3870,17 +3882,28 @@
 		588593F00F7AEB6900ED0E67 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Source/Sequel-Pro.pch";
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
@@ -3922,6 +3945,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/Frameworks/SPMySQLFramework/build/Distribution",
 					"$(SRCROOT)/Frameworks/QueryKit/build/Distribution",
@@ -3929,18 +3953,24 @@
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/Sequel-Pro.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = Resources/Plists/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Frameworks/zlib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Frameworks/zlib",
+					/usr/local/opt/openssl/lib,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = (
 					"$(SRCROOT)/Frameworks/zlib/libz.a",
 					"-lcrypto",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sequelpro.SequelPro;
 				PRODUCT_NAME = "Sequel Pro";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				SEPARATE_STRIP = NO;
 			};
 			name = Distribution;
@@ -3959,8 +3989,9 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "Resources/Plists/PSMTabBar-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.positivespinmedia.PSMTabBarFramework;
 				PRODUCT_NAME = PSMTabBar;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -3978,8 +4009,9 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "Resources/Plists/PSMTabBar-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.positivespinmedia.PSMTabBarFramework;
 				PRODUCT_NAME = PSMTabBar;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -3996,8 +4028,9 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "Resources/Plists/PSMTabBar-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.positivespinmedia.PSMTabBarFramework;
 				PRODUCT_NAME = PSMTabBar;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Distribution;
 		};
@@ -4017,7 +4050,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = xibLocalizationPostprocessor;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -4037,7 +4070,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = xibLocalizationPostprocessor;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -4056,7 +4089,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = xibLocalizationPostprocessor;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Distribution;
 		};
@@ -4080,7 +4113,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = SequelProTunnelAssistant;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -4104,7 +4137,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = SequelProTunnelAssistant;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -4127,7 +4160,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = SequelProTunnelAssistant;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Distribution;
 		};
@@ -4135,6 +4168,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/Frameworks",
 					"$(SRCROOT)/Frameworks/SPMySQLFramework/build/Debug",
@@ -4142,18 +4176,24 @@
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/Sequel-Pro.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = Resources/Plists/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Frameworks/zlib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Frameworks/zlib",
+					/usr/local/opt/openssl/lib,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = (
 					"$(SRCROOT)/Frameworks/zlib/libz.a",
 					"-lcrypto",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sequelpro.SequelPro;
 				PRODUCT_NAME = "Sequel Pro";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				SEPARATE_STRIP = NO;
 			};
 			name = Debug;
@@ -4163,6 +4203,7 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/Frameworks",
 					"$(SRCROOT)/Frameworks/SPMySQLFramework/build/Release",
@@ -4170,18 +4211,24 @@
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/Sequel-Pro.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = Resources/Plists/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Frameworks/zlib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Frameworks/zlib",
+					/usr/local/opt/openssl/lib,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = (
 					"$(SRCROOT)/Frameworks/zlib/libz.a",
 					"-lcrypto",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sequelpro.SequelPro;
 				PRODUCT_NAME = "Sequel Pro";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				SEPARATE_STRIP = NO;
 			};
 			name = Release;
@@ -4189,18 +4236,30 @@
 		C05733CC08A9546B00998B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "Source/Sequel-Pro.pch";
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -4247,17 +4306,28 @@
 		C05733CD08A9546B00998B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Source/Sequel-Pro.pch";
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;

@@ -5610,7 +5610,7 @@ static NSString *SPAlterDatabaseAction = @"SPAlterDatabase";
 		}
 
 		if(userTerminated) {
-			[SPTooltip showWithObject:NSLocalizedString(@"URL scheme command was terminated by user", @"URL scheme command was terminated by user") atLocation:[NSApp mouseLocation]];
+			[SPTooltip showWithObject:NSLocalizedString(@"URL scheme command was terminated by user", @"URL scheme command was terminated by user") atLocation:[NSEvent mouseLocation]];
 			status = @"1";
 		}
 
