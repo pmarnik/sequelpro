@@ -155,6 +155,8 @@
 		17F90E481210B42700274C98 /* SPExportFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F90E471210B42700274C98 /* SPExportFile.m */; };
 		17F90E4B1210B43A00274C98 /* SPExportFileUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F90E4A1210B43A00274C98 /* SPExportFileUtilities.m */; };
 		17FDB04C1280778B00DBBBC2 /* SPFontPreviewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDB04B1280778B00DBBBC2 /* SPFontPreviewTextField.m */; };
+		1A9867C21F89980D00A44573 /* SPBrackets.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9867BE1F89980C00A44573 /* SPBrackets.m */; };
+		1A9867C31F89980D00A44573 /* SPBracketHighlighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9867C01F89980D00A44573 /* SPBracketHighlighter.m */; };
 		296DC89F0F8FD336002A3258 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296DC89E0F8FD336002A3258 /* WebKit.framework */; };
 		296DC8B60F909194002A3258 /* MGTemplateEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 296DC8A70F909194002A3258 /* MGTemplateEngine.m */; };
 		296DC8B70F909194002A3258 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 296DC8AB0F909194002A3258 /* RegexKitLite.m */; };
@@ -850,6 +852,10 @@
 		17F90E4A1210B43A00274C98 /* SPExportFileUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPExportFileUtilities.m; sourceTree = "<group>"; };
 		17FDB04A1280778B00DBBBC2 /* SPFontPreviewTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFontPreviewTextField.h; sourceTree = "<group>"; };
 		17FDB04B1280778B00DBBBC2 /* SPFontPreviewTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPFontPreviewTextField.m; sourceTree = "<group>"; };
+		1A9867BC1F89980C00A44573 /* SPBrackets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBrackets.h; sourceTree = "<group>"; };
+		1A9867BE1F89980C00A44573 /* SPBrackets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBrackets.m; sourceTree = "<group>"; };
+		1A9867BF1F89980D00A44573 /* SPBracketHighlighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBracketHighlighter.h; sourceTree = "<group>"; };
+		1A9867C01F89980D00A44573 /* SPBracketHighlighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBracketHighlighter.m; sourceTree = "<group>"; };
 		296DC89E0F8FD336002A3258 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
 		296DC8A50F909194002A3258 /* MGTemplateMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateMarker.h; sourceTree = "<group>"; };
 		296DC8A60F909194002A3258 /* MGTemplateFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateFilter.h; sourceTree = "<group>"; };
@@ -2066,6 +2072,7 @@
 		17E6416E0EF01F3B001BC333 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				1A9867B91F8997F900A44573 /* Utils */,
 				1198F5B01174EDA700670590 /* Database Actions */,
 				583CE39511722B70008F148E /* File Compression */,
 				173284E51088FEC20062E892 /* Data */,
@@ -2307,6 +2314,17 @@
 				584754C2120A04560057631F /* Sequel Pro.qlgenerator */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1A9867B91F8997F900A44573 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1A9867BF1F89980D00A44573 /* SPBracketHighlighter.h */,
+				1A9867C01F89980D00A44573 /* SPBracketHighlighter.m */,
+				1A9867BC1F89980C00A44573 /* SPBrackets.h */,
+				1A9867BE1F89980C00A44573 /* SPBrackets.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		296DC8A40F90914B002A3258 /* MGTemplateEngine */ = {
@@ -3144,6 +3162,7 @@
 				17E6415C0EF01EF6001BC333 /* SPTableStructure.m in Sources */,
 				50A9F8B119EAD4B90053E571 /* SPGotoDatabaseController.m in Sources */,
 				17E641640EF01F15001BC333 /* SPTableInfo.m in Sources */,
+				1A9867C31F89980D00A44573 /* SPBracketHighlighter.m in Sources */,
 				17E641650EF01F15001BC333 /* SPTablesList.m in Sources */,
 				17E6416C0EF01F37001BC333 /* ImageAndTextCell.m in Sources */,
 				17E641750EF01F80001BC333 /* SPKeychain.m in Sources */,
@@ -3262,6 +3281,7 @@
 				17D3DC201281816E002A163A /* SPDatabaseViewController.m in Sources */,
 				17D3C22212859E070047709F /* SPFavoriteNode.m in Sources */,
 				506CE9311A311C6C0039F736 /* SPTableContentFilterController.m in Sources */,
+				1A9867C21F89980D00A44573 /* SPBrackets.m in Sources */,
 				17D3C6041289BF350047709F /* SPConnectionControllerDelegate.m in Sources */,
 				17D3C66E128AD4710047709F /* SPFavoritesController.m in Sources */,
 				17D3C671128AD8160047709F /* SPSingleton.m in Sources */,

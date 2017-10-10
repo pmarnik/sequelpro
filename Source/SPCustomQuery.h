@@ -62,6 +62,7 @@
 @class SPDatabaseDocument;
 @class SPTablesList;
 #endif
+@class SPBracketHighlighter;
 
 @interface SPCustomQuery : NSObject <NSTableViewDataSource, NSWindowDelegate, NSTableViewDelegate, SPDatabaseContentViewDelegate>
 {
@@ -206,6 +207,7 @@
 
 @property (assign) NSButton* runAllButton;
 @property (assign) BOOL textViewWasChanged;
+@property (assign) SPBracketHighlighter *bracketHighlighter;
 
 // IBAction methods
 - (IBAction)runPrimaryQueryAction:(id)sender;
